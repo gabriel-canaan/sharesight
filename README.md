@@ -1,3 +1,9 @@
+## Steps
+- I cloned this starter
+- Then grabbed a Tailwind UI Navbar
+- It would need a major refactor as I have repeated a lot of code. I just wanted to get a feel of how it worked on the page.
+- I cheated a bit with margins to align the logo so that would need to be fixed along with a lot of css.
+
 # Gatsby Typescript Tailwind Twin.Macro Styled-Component Starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f3a1349e-ba39-4c41-a9e9-a5714ccd4f19/deploy-status)](https://app.netlify.com/sites/gatsby-typescript-tailwind-twin-styled-component-starter/deploys)
@@ -107,13 +113,7 @@ This is a starter for [Gatsby](https://www.gatsbyjs.org/) websites using:
     gatsby build
     ```
     
-## 🎓 Learning Gatsby
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## Deploy
 
