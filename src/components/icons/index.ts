@@ -5,3 +5,4 @@ export { default as StyledComponentsIcon } from './components/Styled-components.
 export { default as TypescriptIcon } from './components/Typescript.svg.react';
 export { default as TwinIcon } from './components/Twin.svg.react';
 export { default as SharesightIcon } from './components/SharesightIcon.svg.react';
+export { default as NavbarDropdown } from './components/NavbarDropdown';

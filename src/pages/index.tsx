@@ -5,6 +5,7 @@ import {
   GatsbyIcon,
   TailwindIcon,
   SharesightIcon,
+  NavbarDropdown,
   StyledComponentsIcon,
   TypescriptIcon,
   GithubIcon,
@@ -30,10 +31,11 @@ const Text = tw.p`
 `;
 
 const Logos = styled.div`
-  ${tw`flex items-center justify-around`}
+  ${tw`flex items-center justify-between`}
   svg,
   img {
-    width: 64px;
+    width: 100px;
+    display: inline-block;
   }
 `;
 
@@ -53,38 +55,35 @@ const Index = () => (
   <Theme>
     <div
       css={[
-        tw`flex flex-col items-center justify-center h-screen`,
+        tw`flex flex-col items-center `,
         // Combine regular css and Tailwind styles within backticks
         css`
-          background: #542c85;
+          background: #fff;
         `
       ]}
     >
-      <Wrapper>
-        <Main>
+      {/* <Wrapper> */}
+        {/* <Main> */}
+      
+       
+       
           <Logos>
-            <GatsbyIcon />
+          <SharesightIcon />
+          <div className="flex justify-between">
+          <NavbarDropdown />
+        
+        
+          {/* <Button isSmall>Login</Button>
+            <Button isSecondary>Sign up for free</Button> */}
+            {/* <GatsbyIcon />
             <TypescriptIcon />
             <StyledComponentsIcon />
             <TailwindIcon />
-            <TwinIcon />
-            <SharesightIcon />
+            <TwinIcon /> */}
+            </div> 
           </Logos>
-          <Heading>Hello, Dave</Heading>
-          <Text>
-            Welcome to the Gatsby + Tailwind CSS + Styled-Components + Typescript Starter.
-          </Text>
-          <div className="flex justify-between">
-            <Button isPrimary>Primary</Button>
-            <Button isSecondary>Secondary</Button>
-            <Button isPrimary isSmall>
-              Small Primary
-            </Button>
-            <Button isSecondary isSmall>
-              Small Secondary
-            </Button>
-          </div>
-          <Footer>
+       
+          {/* <Footer>
             <a
               href="https://github.com/DevHausStudio/Gatsby-Typescript-Tailwind-Twin-Styled-Component-Starter"
               target="_blank"
@@ -92,9 +91,9 @@ const Index = () => (
             >
               <GithubIcon />
             </a>
-          </Footer>
-        </Main>
-      </Wrapper>
+          </Footer> */}
+        {/* </Main> */}
+      {/* </Wrapper> */}
     </div>
   </Theme>
 );
